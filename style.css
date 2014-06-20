@@ -1,0 +1,113 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.42857143;
+	color: #5a5a5a;
+}
+.container{
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar-text {
+	font-color:white;
+	font-size: 400%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-nav {
+	font-color:white;
+	font-size: 130%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.carousel {
+height: 500px;
+margin-bottom: 60px;
+position: relative;
+top: 50px;
+}
+.carousel-inner {
+position: relative;
+overflow: hidden;
+width: 100%;
+}
+.carousel-img {
+	margin: 0px auto;
+}
+.img-a {
+vertical-align: middle;
+height: 240px;
+}
+.row {
+margin-left: -15px;
+margin-right: -15px;
+}
+.col-lg-4 {
+	float:left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.featurette-image {
+vertical-align: middle;
+width: 450px;
+}
+
+.carousel-caption {
+left: 20%;
+right: 20%;
+padding-bottom: 30px;
+font-color:black;
+text-align: center;
+text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+.carousel-caption>p {
+max-width: 500px;
+margin: 0 auto;
+padding-bottom: 10px;
+}
+
+container::before {
+content: " ";
+display: table;
+padding: 15px;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.33;
+border-radius: 6px;
+}
+.marketing .col-lg-4 {
+margin-bottom: 20px;
+text-align: center;
+position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+img {
+    margin-top: 50px;
+    box-shadow: 0 0 30px #888;
+    
+}
+
+.btn-primary {
+    margin-top: 5px;
+    box-shadow: 0 0 10px #888;
+    
+}
+
+.btn-warning {
+    margin-top: 5px;
+    box-shadow: 0 0 10px #10559F;
+
+
+.glyphicon {
+	font-size: 1em;
+}
