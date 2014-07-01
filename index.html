@@ -2,23 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="script.js"></script>
+        
         <link href="style.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <title>Carousel Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="carousel.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -56,11 +45,13 @@
                 </li>
 
               </ul>
-              <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Find Movies">
-        <button type="submit" class="btn btn-success">Search</button>
-      </form>
+              <form class="navbar-form navbar-right form-inline" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Find Movies">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+            </form>
+
             </div>
           </div>
         </div>
@@ -83,7 +74,7 @@
             <div class="carousel-caption">
               <h1>Pixar's "Up"</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now </a></p>
+              <p><a class="btn btn-lg btn-warning watch-now" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now </a></p>
             </div>
           </div>
         </div>
@@ -94,7 +85,7 @@
             <div class="carousel-caption">
               <h1>Martin Scorsese's "Hugo"</h1>
               <p>Unlock the secret. One of the most legendary directors of our time takes you on an extraordinary adventure.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
+              <p><a class="btn btn-lg btn-warning watch-now" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
             </div>
           </div>
         </div>
@@ -105,7 +96,7 @@
             <div class="carousel-caption">
               <h1>Marvel's "The Avengers"</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
+              <p><a class="btn btn-lg btn-warning watch-now" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
             </div>
           </div>
         </div>
@@ -116,7 +107,7 @@
             <div class="carousel-caption">
               <h1>Pixar's "Wall-E"</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
+              <p><a class="btn btn-lg btn-warning watch-now" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
             </div>
           </div>
         </div>
@@ -127,7 +118,7 @@
             <div class="carousel-caption">
               <h1>Pixar's "Brave"</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
+              <p><a class="btn btn-lg btn-warning watch-now" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
             </div>
           </div>
         </div>
@@ -209,9 +200,13 @@
       <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <script src='//player.ooyala.com/v3/b20b629b57d44e009692df671672d546'></script><div id='ooyalaplayer' style='width:900px;height:504px'></div><script>OO.ready(function() { OO.Player.create('ooyalaplayer', 'NsNHRnbjrIhhwnEMJSG939wey4-c0PK7', {"autoplay":true}); });
 
-            </script><noscript><div>Please enable Javascript to watch this video</div></noscript>
+            <script src='//player.ooyala.com/v3/b20b629b57d44e009692df671672d546'></script>
+            <div id='ooyalaplayer' style='width:900px;height:504px'>
+          </div>
+          <noscript>
+            <div>Please enable Javascript to watch this video</div>
+          </noscript>
             <!--<script src='//player.ooyala.com/v3/b20b629b57d44e009692df671672d546'></script><div id='ooyalaplayer' style='width:900px;height:600px'></div><script>OO.ready(function() { OO.Player.create('ooyalaplayer', 'ZiZDRsNzr3KdGZMQma77b-sZWg-oBydq'); });</script><noscript><div>Please enable Javascript to watch this video</div></noscript>-->
 
           </div>
@@ -221,8 +216,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
   </body>
 </html>
