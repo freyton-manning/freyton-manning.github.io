@@ -2,11 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="script.js"></script>
         <link href="style.css" rel="stylesheet">
     <meta charset="utf-8">
@@ -45,22 +43,15 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres<b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
-                    <li><a href="#">Comedy</a></li>
-                    <li><a href="#">Drama</a></li>
-                     <li><a href="#">Documentary</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
                     <li class="divider"></li>
-                    <li class="dropdown-header">Television Series</li>
-                    <li><a href="#">Sitcoms</a></li>
-                    <li><a href="#">Reality TV</a></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
-
               </ul>
-              <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Find Movies">
-        <button type="submit" class="btn btn-success">Search</button>
-      </form>
             </div>
           </div>
         </div>
@@ -77,57 +68,32 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <div class="carousel-bg" id="up"></div>
           <img class="carousel-img" src="up-small.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Pixar's "Up"</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now </a></p>
+              <p><a class="btn btn-lg btn-warning" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <div class="carousel-bg" id="hugo"></div>
-          <img class="carousel-img" src="hugo.jpg" alt="Second slide">
+          <img class="carousel-img" data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Martin Scorsese's "Hugo"</h1>
-              <p>Unlock the secret. One of the most legendary directors of our time takes you on an extraordinary adventure.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
-        <div id='avengers-image' class="item">
-          <div class="carousel-bg" id="avengers"></div>
-          <img class="carousel-img" src="avengers.jpg" alt="Third slide">
+        <div class="item">
+          <img class="carousel-img" data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Marvel's "The Avengers"</h1>
+              <h1>One more for good measure.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
-            </div>
-          </div>
-        </div>
-        <div id='walle-image' class="item">
-          <div class="carousel-bg" id="walle"></div>
-          <img class="carousel-img" src="walle.jpg" alt="Fourth slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Pixar's "Wall-E"</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
-            </div>
-          </div>
-        </div>
-        <div id='brave-image' class="item">
-          <div class="carousel-bg" id="brave"></div>
-          <img class="carousel-img" src="brave.jpg" alt="Fifth slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Pixar's "Brave"</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" data-toggle="modal" data-target=".bs-example-modal-lg" href="#" role="button">Watch Now</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -159,11 +125,6 @@
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-
-
-
-
-
       </div><!-- /.row -->
       <!-- START THE FEATURETTES -->
       <hr class="featurette-divider">
@@ -206,17 +167,6 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
-      <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <script src='//player.ooyala.com/v3/b20b629b57d44e009692df671672d546'></script><div id='ooyalaplayer' style='width:900px;height:504px'></div><script>OO.ready(function() { OO.Player.create('ooyalaplayer', 'NsNHRnbjrIhhwnEMJSG939wey4-c0PK7', {"autoplay":true}); });
-
-            </script><noscript><div>Please enable Javascript to watch this video</div></noscript>
-            <!--<script src='//player.ooyala.com/v3/b20b629b57d44e009692df671672d546'></script><div id='ooyalaplayer' style='width:900px;height:600px'></div><script>OO.ready(function() { OO.Player.create('ooyalaplayer', 'ZiZDRsNzr3KdGZMQma77b-sZWg-oBydq'); });</script><noscript><div>Please enable Javascript to watch this video</div></noscript>-->
-
-          </div>
-        </div>
-      </div>
     </div><!-- /.container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
