@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <link href="style.css" rel="stylesheet">
+    <title>Carousel Template for Bootstrap</title>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body id='project-wrap'>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-fixed-top large-z" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Video Site Project</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">Movies</a></li>
+                <li><a href="#contact">Live TV</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Comedy</a></li>
+                    <li><a href="#">Drama</a></li>
+                     <li><a href="#">Documentary</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Television Series</li>
+                    <li><a href="#">Sitcoms</a></li>
+                    <li><a href="#">Reality TV</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+              <form class="navbar-form navbar-right form-inline" role="search">
+                <div class="form-group">  
+                  <input type="text" class="form-control" placeholder="Find Movies">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+      </div><!-- /.row -->
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <br><br>
+          
+
+<div id="playerContainer" ></div>
+<script type="text/javascript" src="https://player.ooyala.com/v3/b20b629b57d44e009692df671672d546"></script>
+<script type="text/javascript">
+var ooyalaPlayer;
+
+OO.ready(function() {
+    var playerConfiguration = {
+        playlistsPlugin: {"data":["ea358b2dbdf45fd90d0d9b7cdc36631"]},
+        autoplay: false,
+        loop: false,
+        height: 579,
+        width: 800,
+        useFirstVideoFromPlaylist: true
+    };
+
+    ooyalaPlayer = OO.Player.create('playerContainer', '', playerConfiguration);
+});
+
+</script>
+
+
+
+
+        </div>
+
+        <div class="col-md-5">
+          
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" img src="frozenposter.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Movie Information</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.<br><br>Cast: Cast Member 1, Cast Member 2<br>1989
+          </p>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+
+
+    </div><!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+  </body>
+</html>

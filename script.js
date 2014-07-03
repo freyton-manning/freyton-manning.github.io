@@ -6,6 +6,7 @@ $(document).ready(function() {
 		console.log('here');
 	    $('.carousel').carousel('pause');
 	    OO.Player.create('ooyalaplayer', 'NsNHRnbjrIhhwnEMJSG939wey4-c0PK7', {"autoplay":true}); 
+	    $('#ooyalaplayer');
 	});
 	//opposite click event 
 	$(document).click(function(e) {
