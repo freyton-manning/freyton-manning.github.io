@@ -184,8 +184,17 @@ glyphicon-chevron-right {
 	line-height: 36px;
 }
 
+.thumbnailgallery{
+box-shadow: 0 0 30px #888;
+display:block;
+margin-bottom: auto;
+background-color:black;
+padding: 20px;
+}
 #gallery {
 box-shadow: 0 0 30px #888;
+display:block;
+margin-bottom: auto;
 background-color:black;
-padding: 2px;
+padding: 20px;
 }

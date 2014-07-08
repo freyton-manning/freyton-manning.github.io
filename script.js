@@ -9,7 +9,7 @@ $(document).ready(function() {
 	    $('#ooyalaplayer');
 	});
 
-	var $img2 = $('#img2');
+var $img2 = $('#img2');
 $img2.data('state', 'hover');
 
 var enterShow = function () {
@@ -28,7 +28,7 @@ var clickToggle = function () {
         $img2.data('state', 'pinned');
     } else {
         $img2.data('state', 'hover')
-        $img.popover('hover');
+        $.popover('hover');
     }
 };
 
@@ -36,6 +36,71 @@ $img2.popover({trigger: 'manual'})
     .on('mouseenter', enterShow)
     .on('mouseleave', exitHide)
     .on('click', clickToggle);
+
+
+
+
+var $img3 = $('#img3');
+$img3.data('state', 'hover');
+
+var enterShow = function () {
+    if ($img3.data('state') === 'hover') {
+        $img3.popover('show');
+    }
+};
+var exitHide = function () {
+    if ($img3.data('state') === 'hover') {
+        $img3.popover('hide');
+    }
+};
+
+var clickToggle = function () {
+    if ($img3.data('state') === 'hover') {
+        $img3.data('state', 'pinned');
+    } else {
+        $img3.data('state', 'hover')
+        $.popover('hover');
+    }
+};
+
+$img3.popover({trigger: 'manual'})
+    .on('mouseenter', enterShow)
+    .on('mouseleave', exitHide)
+    .on('click', clickToggle);
+
+
+
+
+var $img4 = $('#img4');
+$img4.data('state', 'hover');
+
+var enterShow = function () {
+    if ($img4.data('state') === 'hover') {
+        $img4.popover('show');
+    }
+};
+var exitHide = function () {
+    if ($img4.data('state') === 'hover') {
+        $img4.popover('hide');
+    }
+};
+
+var clickToggle = function () {
+    if ($img4.data('state') === 'hover') {
+        $img4.data('state', 'pinned');
+    } else {
+        $img4.data('state', 'hover')
+        $.popover('hover');
+    }
+};
+
+$img4.popover({trigger: 'manual'})
+    .on('mouseenter', enterShow)
+    .on('mouseleave', exitHide)
+    .on('click', clickToggle);
+
+
+
 
 
 	//opposite click event 
