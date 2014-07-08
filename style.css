@@ -183,3 +183,9 @@ glyphicon-chevron-right {
 	vertical-align: middle;
 	line-height: 36px;
 }
+
+#gallery {
+box-shadow: 0 0 30px #888;
+background-color:black;
+padding: 2px;
+}
