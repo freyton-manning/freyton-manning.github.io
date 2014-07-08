@@ -67,6 +67,7 @@ top: 50px;
 vertical-align: middle;
 height: 240px;
 box-shadow: 0 0 30px #888;
+
 }
 .spacer {
 	height: 24px;
@@ -74,12 +75,20 @@ box-shadow: 0 0 30px #888;
 .row {
 margin: 26px -15px;
 }
+
+.row {
+margin: 26px -15px;
+padding-bottom:10px;
+}
+
+
 .col-lg-4 {
 	float:left;
 	position: relative;
 	min-height: 1px;
 	padding-left: 15px;
 	padding-right: 15px;
+
 }
 .featurette-image {
 vertical-align: middle;
@@ -184,17 +193,27 @@ glyphicon-chevron-right {
 	line-height: 36px;
 }
 
-.thumbnailgallery{
+.thumbnailgallery {
+background-color:black;
+padding-top: 10px;
+border:1px solid black;
+}
+
+.row-gallery {
 box-shadow: 0 0 30px #888;
 display:block;
-margin-bottom: auto;
+margin-bottom: 5px;
 background-color:black;
 padding: 20px;
+padding-bottom:10px;
 }
-#gallery {
-box-shadow: 0 0 30px #888;
-display:block;
-margin-bottom: auto;
-background-color:black;
-padding: 20px;
+
+.gal {
+	background-color:black;
+	padding-bottom:2px;
+	border: 10px solid black;
+	box-shadow: 0 0 30px #888;
 }
+
+
+
