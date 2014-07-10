@@ -9,7 +9,11 @@ $(document).ready(function() {
 	    $('#ooyalaplayer');
 	});
 
-var $img2 = $('#img2');
+    $('.img-a').popover({trigger: 'hover'});
+
+    $('.galleryimage').popover({trigger: 'hover'});
+
+/*var $img2 = $('#img2');
 $img2.data('state', 'hover');
 
 var enterShow = function () {
@@ -97,7 +101,7 @@ var clickToggle = function () {
 $img4.popover({trigger: 'manual'})
     .on('mouseenter', enterShow)
     .on('mouseleave', exitHide)
-    .on('click', clickToggle);
+    .on('click', clickToggle);*/
 
 
 
